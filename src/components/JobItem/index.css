@@ -1,0 +1,93 @@
+.jobitem-con {
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  width: 600px;
+  font-family: 'roboto';
+}
+
+.jobitem-logo {
+  width: 50px;
+  margin: 10px;
+}
+
+.top-sec-job-item {
+  display: flex;
+  align-items: center;
+}
+
+.jobitem-star-con {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.jobitem-head {
+  text-decoration: none;
+}
+
+.jobitem-link {
+  text-decoration: none;
+}
+
+.jobitem-head {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.jobitem-rating {
+  color: white;
+  font-weight: 500;
+}
+
+.job-item-container-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #cbd5e1;
+  font-weight: 500px;
+}
+
+.jobitem-loc-sl-con {
+  display: flex;
+  align-items: center;
+}
+
+.jobitem-job-loc-con {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.loc-in-icon {
+  margin: 5px;
+}
+
+.job-line {
+  color: #7e858e;
+}
+
+.jobitem-desc-head {
+  color: white;
+  font-weight: 500;
+}
+
+.jobitem-desc-para {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .jobitem-con {
+    width: 300px;
+  }
+}

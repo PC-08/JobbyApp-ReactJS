@@ -1,0 +1,69 @@
+.LoginRoute-bg {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+
+.LoginRoute-card {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.LoginRoute-input-con {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.LoginRoute-form {
+  padding: 10px;
+}
+
+.LoginRoute-label {
+  color: #f8fafc;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.LoginRoute-input {
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #64748b;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 250px;
+  color: white;
+  font-size: 18px;
+}
+
+.LoginRoute-img-con {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.LoginRoute-btn-con {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.LoginRoute-btn {
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  height: 40px;
+  width: 180px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: 'roboto';
+}
+
+.error-message {
+  color: #ff0b37;
+}
